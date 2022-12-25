@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CloudPhoto/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.103.6",
+          "AWSSDK.S3": "3.7.101.44",
+          "CommandLineParser": "2.9.1"
+        },
+        "runtime": {
+          "CloudPhoto.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.103.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.103.6"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.101.44": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.103.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.44"
+          }
+        }
+      },
+      "CommandLineParser/2.9.1": {
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "assemblyVersion": "2.9.1.0",
+            "fileVersion": "2.9.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CloudPhoto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.103.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9taEwfYXx7o94lDJrr9gJ94vGjwWiWjWKGIR0jOlIBZ6mtoW0sMXpqdbxvSa1eI9cU66wMfSmIEPrcvguwbHw==",
+      "path": "awssdk.core/3.7.103.6",
+      "hashPath": "awssdk.core.3.7.103.6.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.101.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fFN7IOEUYsOqkNEu6ccVo9zq/ohSZTXqKZVfOLvTRIBusJZbi9SO478OHI1sIFpkK0V0f9B8uBs9PPF/plOrkQ==",
+      "path": "awssdk.s3/3.7.101.44",
+      "hashPath": "awssdk.s3.3.7.101.44.nupkg.sha512"
+    },
+    "CommandLineParser/2.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OE0sl1/sQ37bjVsPKKtwQlWDgqaxWgtme3xZz7JssWUzg5JpMIyHgCTY9MVMxOg48fJ1AgGT3tgdH5m/kQ5xhA==",
+      "path": "commandlineparser/2.9.1",
+      "hashPath": "commandlineparser.2.9.1.nupkg.sha512"
+    }
+  }
+}

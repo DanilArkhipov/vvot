@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8pAffw2d0O+RkWSwKl1aglfakE+SjL+6a+NUhmcFjwBTgbsCh8lunrLN9Amf4Ujd8kLKug3dQo1aZMH3KkIK/g==",
+  "success": true,
+  "projectFilePath": "C:\\Repository\\vvot\\CloudPhoto\\CloudPhoto\\CloudPhoto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\strel\\.nuget\\packages\\awssdk.core\\3.7.103.6\\awssdk.core.3.7.103.6.nupkg.sha512",
+    "C:\\Users\\strel\\.nuget\\packages\\awssdk.s3\\3.7.101.44\\awssdk.s3.3.7.101.44.nupkg.sha512",
+    "C:\\Users\\strel\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}
